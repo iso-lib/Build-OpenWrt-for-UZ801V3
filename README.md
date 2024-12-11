@@ -1,4 +1,4 @@
-<p align="center"><img src="img/logo.png" /></p>
+<p align="center"><img src="logo.png" /></p>
 <h1 align="center">HandsomeMod 21.03</h1>
 
 ## 说明
