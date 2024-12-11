@@ -4,7 +4,7 @@
 ## 说明
 - 为一些高通410的随身WiFi编译OpenWrt。
 - 固件仓库来自[HandsomeMod](https://github.com/HandsomeMod/HandsomeMod)
-- 我修复了一些下载错误[HandsomeMod](https://github.com/LeeHe-gif/HandsomeMod)和编译错误
+- 修复了一些下载错误[HandsomeMod](https://github.com/LeeHe-gif/HandsomeMod)与编译错误
 - 默认带[小猫咪](https://github.com/vernesong/OpenClash)
 
 ## 使用方法
