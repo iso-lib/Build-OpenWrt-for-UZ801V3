@@ -13,7 +13,8 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+# Add feed source
+
+echo 'src-git-full argon https://github.com/jerrykuku/luci-theme-argon.git' >>feeds.conf.default
+
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-echo 'src-git argon https://github.com/jerrykuku/luci-theme-argon' >>feeds.conf.default
