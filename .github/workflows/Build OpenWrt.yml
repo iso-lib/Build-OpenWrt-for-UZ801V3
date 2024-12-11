@@ -129,7 +129,7 @@ jobs:
       run: |
         echo "release_tag=$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
         touch release.txt
-        echo -e "##### OpenWrt 固件信息 \n- 使用HandsomeMod的仓库 \n- 默认网关: 192.168.1.1 \n- 默认用户: root \n- 没有密码 \n- 已装插件:-luci-app-docker\n \t-luci-app-dockerman\n \t-luci-app-firewall\n \t-luci-app-openclash\n \t-luci-app-opkg\n \t" >> release.txt
+        echo -e "##### OpenWrt 固件信息 \n- 使用HandsomeMod的仓库 \n- 默认网关: 192.168.1.1 \n- 默认用户: root \n- 没有密码 \n- 已装插件:\n-luci-app-docker\n \t-luci-app-dockerman\n \t-luci-app-firewall\n \t-luci-app-openclash\n \t-luci-app-opkg\n \t" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
