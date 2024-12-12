@@ -61,7 +61,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
-        cd packages
+        cd package
         git clone https://github.com/jerrykuku/luci-theme-argon.git
         
     - name: Update feeds
