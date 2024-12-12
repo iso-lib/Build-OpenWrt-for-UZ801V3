@@ -14,4 +14,5 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add feed source
+
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
