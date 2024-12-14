@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt without compile logs
+name: build without download logs
 
 on: 
   repository_dispatch:
