@@ -6,7 +6,7 @@
 - 为高通410的随身WiFi UZ801V3编译OpenWrt。
 - 固件仓库来自[HandsomeMod](https://github.com/HandsomeMod/HandsomeMod)
 - 修复了一些下载错误与编译错误[HandsomeMod](https://github.com/LeeHe-gif/HandsomeMod)
-- 默认带[小猫咪](https://github.com/vernesong/OpenClash)和dockerman
+- 使用本仓库的文件链接来安装依赖
 ## 使用方法
 1. 点击右上角的fork按钮，复制一份代码到你自己的仓库
 2. 确保你已经设置好了GITHUB_TOKEN
